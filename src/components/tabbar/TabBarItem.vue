@@ -9,6 +9,9 @@ slot
 <script>
     export default {
             name: "TabBarItem",
+            props:{
+                path:String
+                },
             data(){
                 return {
                     isActive:true
@@ -16,7 +19,7 @@ slot
             },
             methods:{
                 itemClick(){
-                    console.log('itemClick');
+                    this.$router.replace(this.path)
                 }
             }
         }

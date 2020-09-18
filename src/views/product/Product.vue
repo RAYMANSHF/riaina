@@ -1,5 +1,5 @@
 <template>
-  <h2>分类</h2>
+  <h2>产品和服务</h2>
 </template>
 
 <script>
